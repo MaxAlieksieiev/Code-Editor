@@ -6,8 +6,12 @@ export const Page = () => (
     <Styled.MainWrapper>
         <Header />
         <Styled.Wrapper>
-            <Sidebar />
-            <CodeEditor />
+            <Styled.VerticalSplit
+                sizes={[25, 75]}
+            >
+                <Sidebar />
+                <CodeEditor />
+            </Styled.VerticalSplit>
         </Styled.Wrapper>
     </Styled.MainWrapper>
 );
