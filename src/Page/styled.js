@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Split from 'react-split';
+import { Divider as MuiDivider } from '@mui/material';
 
 export const MainWrapper = styled.div`
     display: flex;
@@ -19,5 +20,10 @@ export const Wrapper = styled.div`
 export const VerticalSplit = styled(Split)`
     display: flex;
     flex:1;
-    background-color: white;
+    background-color: grey;
+`;
+
+export const Divider = styled(MuiDivider)`
+    height: 5px;
+    background-color: grey;
 `;

@@ -12,7 +12,7 @@ export const HorizontalSplit = styled(Split)`
     flex: 1;
     display: flex;
     flex-direction: column;
-    background: white;
+    background: grey;
 `;
 
 export const Container = styled.div`

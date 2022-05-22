@@ -1,2 +1,2 @@
-export * from './CodeContainer';
-export * from './TerminalContainer';
+export * from './codeContainer';
+export * from './terminalContainer';
